@@ -1,0 +1,44 @@
+
+.container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 0 auto;
+    gap: 10px; 
+    flex-direction: row;
+    justify-content: center;
+}
+
+body {
+font-family: "Segoe UI",  Tahoma, Geneva, Verdana, sans-serif;
+background-color: rgb(103, 231, 77);
+margin: 0;
+padding: 0;
+ max-width: vhw;
+}
+
+h1{
+    text-align: center;
+    color:rgb(8, 8, 8);
+}
+
+.card{
+flex-basis: calc(100% / 3 -20px);
+background-color: rgb(65, 100, 58);
+ color: aliceblue;
+text-align: center;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 5px 3px 27px 3px rgb(33, 44, 17);
+}
+
+.card h2{
+margin-top: 0;
+}
+
+.card p {
+ margin-top: 10px 0;
+}
+
+
+
