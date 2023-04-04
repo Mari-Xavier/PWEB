@@ -40,7 +40,7 @@ div
     }
 }
 
-@media screen and (min-width: 1081) and (max-width: 1366px){
+@media screen and (min-width: 1081px) and (max-width: 1366px){
 	div{
 		background-color: rgb(49, 42, 176);
 	}
