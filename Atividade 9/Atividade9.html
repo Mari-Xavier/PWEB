@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 9</title>
+    <script src="Maior_OrdemCrescente.js"></script>
+    <style>
+        body {
+            background-color: rgb(193, 58, 63);
+            min-height: 100%;
+            background-image: url(https://cdn.pixabay.com/photo/2020/09/23/03/54/background-5594879_960_720.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 1500px;
+            align-items: center;
+        }
+
+        .numeros {
+            display: flex;
+            flex-direction: column;
+            width: 450px;
+            background-color:  rgb(225, 127, 130);
+            align-items: center;
+            padding: 25px;
+            border-radius: 110px;
+            margin-left: 600px;
+            margin-top: 200px;
+        }
+
+        .resposta
+        {
+            display: flex;
+            flex-direction: column;
+            width: 450px;
+            background-color: rgb(183, 167, 167);
+            align-items: center;
+            padding: 25px;
+            border-radius: 110px;
+            margin-left: 600px;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <section>
+        <div id="numeros" class="numeros">
+            <h1>Digite três números nos campos abaixo:</h1>
+            <input type="number" id="num1">
+            <br>
+            <input type="number" id="num2">
+            <br>
+            <input type="number" id="num3">
+            <br>
+            <input type="button" id="btn" value="Maior Número" onclick="maior()">
+            <br>
+            <input type="button" id="btn" value="Ordem Crescente" onclick="cresc()">
+        </div>
+
+        <div id="res" class="resposta">
+            
+    </section>
+</body>
+
+</html>
