@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pesquisa no Cinema</title>
+    <script src="pesquisa.js"></script>
+    <style>
+        body {
+            background-color: rgb(141, 69, 25);
+            min-height: 100%;
+            background-image: url(https://img.imageboss.me/revista-cdn/cdn/38102/b9118800092e00f986398edc03863b57fe602310.jpg?1641220359);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 1500px;
+            align-items: center;
+        }
+
+        .inputs {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+        }
+
+        .submit {
+            width: 100px;
+            color: rgb(255, 252, 252);
+            background-color: rgb(147, 86, 16);
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            background-color: rgb(240, 172, 77);
+            align-items: center;
+            padding: 25px;
+            border-radius: 10px;
+            margin-left: 600px;
+            margin-top: 200px;
+
+        }
+
+        .titulo {
+            align-self: center;
+        }
+    </style>
+</head>
+
+<body>
+   
+    <main class=main><!--por questão de semântica, para que ele possa entender-->
+        <div class="inputs">
+            <label class="titulo"><b>PESQUISA DE CINÉFILOS</b></label>
+            <br>
+            <label for="idade">Idade</label> <!--texto-->
+                <input id="idade" name="idade" type="text" /> <!--caixinha-->
+            <br>
+            <label for="genero">Sexo</label>
+
+            <select name="genero" id="sexo">
+                <option value="Male">
+                    Masculino
+                </option>
+                <option value="Female">
+                    Feminino
+                </option>
+            </select><!--dropdown, caixinha de opção-->
+            <br>
+            <label for="opiniao">Opinião</label>
+            <select name="opiniao" id="opiniao">
+                <option value="4">Ótimo</option>
+                <option value="3">Bom</option>
+                <option value="2">Regular</option>
+                <option value="1">Péssimo</option>
+            </select>
+
+
+
+        </div>
+        <div>
+            <br><br>
+            <button onclick="onClick()" class="submit">Enviar</button>
+        </div>
+    </main>
+</body>
+
+</html>
